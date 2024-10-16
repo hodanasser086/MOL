@@ -1,0 +1,251 @@
+<mat-toolbar color="primary">
+  <img src=".\assets\main.svg" alt="logo">
+  <div class="right-side" fxLayout="row">
+    <div class="user-details-container" fxLayout="column" fxFlex="252px">
+      <div class="welcome-container" fxLayout="row">
+        <span class="title">Agent</span>
+        <span class="details">H.G.E Group - Maaroub Branch</span>
+      </div>
+      <div class="welcome-container" fxLayout="row">
+        <span class="title">Username</span>
+        <span class="details">Hassan</span>
+      </div>
+      <div class="welcome-container" fxLayout="row">
+        <span class="title">Login Time</span>
+        <span class="details">19/7/2024 | 03:42:54 PM</span>
+      </div>
+    </div>
+    
+    <div class="action-container" fxLayout="row wrap" fxFlex="278px">
+        <button mat-button class="settings-button">
+          <span class="icon settings-icon"></span>
+          <span>Settings</span>
+        </button>
+        <button mat-button class="notification-button">
+          <span class="icon notification-icon"></span>
+          <span>Notification</span>
+        </button>
+        <button mat-button class="">
+          <span class="icon support-icon"></span>
+          <span>Support</span>
+        </button>
+        <button mat-button class="">
+          <span class="icon logout-icon"></span>
+          <span>Logout</span>
+        </button>
+    </div>
+  </div>
+  
+</mat-toolbar>
+<span class="toolbar-separator"></span>
+
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened>
+    <div>
+        <div class="row" fxLayout="row">
+          <span class="home-icon icon"></span>
+          <span class="sidenav-title">Home</span>
+        </div>
+        <div class="row" fxLayout="row">
+          <span class="intra-icon icon"></span>
+          <span class="sidenav-title">Intra Remittance</span>
+        </div>
+        <div class="row" fxLayout="row">
+          <span class="intl-icon icon"></span>
+          <span class="sidenav-title">Intl. Remittance</span>
+        </div>
+        <div class="row" fxLayout="row">
+          <span class="remittance-mngr-icon icon"></span>
+          <span class="sidenav-title">Remittance Manager</span>
+        </div>
+        <div class="row" fxLayout="row">
+          <span class="admin-icon icon"></span>
+          <span class="sidenav-title">Administration</span>
+        </div>
+        <div class="row" fxLayout="row">
+          <span class="financial-icon icon"></span>
+          <span class="sidenav-title">Financial Manager</span>
+        </div>
+        <div class="row" fxLayout="row">
+          <span class="pricing-icon icon"></span>
+          <span class="sidenav-title">Pricing</span>
+        </div>
+        <div class="row" fxLayout="row" >
+          <span class="reports-icon icon"></span>
+          <span class="sidenav-title">Reports</span>
+        </div>
+        <div class="row" fxLayout="row">
+          <span class="aml-icon icon"></span>
+          <span class="sidenav-title">AML Manager</span>
+        </div>
+        <div class="row" fxLayout="row">
+          <span class="auditing-icon icon"></span>
+          <span class="sidenav-title">Auditing</span>
+        </div>
+        <div class="row" fxLayout="row">
+          <span class="topup-icon icon"></span>
+          <span class="sidenav-title">Topup</span>
+        </div>
+        <div class="row" fxLayout="row">
+          <span class="payment-icon icon"></span>
+          <span class="sidenav-title">Payment services</span>
+        </div>
+        <div class="row" fxLayout="row">
+          <span class="government-icon icon"></span>
+          <span class="sidenav-title">Government services</span>
+        </div>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="content" fxLayout="row wrap" fxFlex="100%">
+      <div class="content-container" fxLayout="row" fxFlex="100%" fxLayoutGap="30px">
+        <div class="card" fxLayout="row" fxFlex="50%">
+          <div class="card-container">
+            <span class="welcome-header">
+              <span class="green-color">Welcome Back, </span>
+              <span class="">Hassan</span>
+            </span>
+            <div class="user-details" fxLayout="row wrap" fxLayoutGap="27px">
+              <div class="details-container" fxFlex="auto">
+                <span class="user-details-title">Logget at</span>
+                <div class="date-container">
+                  <span class="date-icon"></span>
+                  <span class="date-text">16/8/2024</span>
+                </div>
+                <div class="date-container">
+                  <span class="time-icon"></span>
+                  <span class="time-text">16/8/2024</span>
+                </div>
+              </div>
+              <div class="details-container" fxFlex="auto">
+                <span class="user-details-title">Last successful login at</span>
+                <div class="date-container">
+                  <span class="date-icon"></span>
+                  <span class="date-text">16/8/2024</span>
+                </div>
+                <div class="date-container">
+                  <span class="time-icon"></span>
+                  <span class="time-text">16/8/2024</span>
+                </div>
+              </div>
+              <div class="details-container" fxFlex="auto">
+                <span class="user-details-title">Logget at</span>
+                <div class="date-container">
+                  <span class="date-icon"></span>
+                  <span class="date-text">16/8/2024</span>
+                </div>
+                <div class="date-container">
+                  <span class="time-icon"></span>
+                  <span class="time-text">16/8/2024</span>
+                </div>
+              </div>
+            </div>
+            <div class="" fxLayout="row" fxLayoutGap="60px">
+              <div class="send-remittance-card" fxFlex="50%">
+                <span class="send-remittance-icon"></span>
+                <span class="send-remittance-text">SEND Remittance</span>
+              </div>
+              <div class="receive-remittance-card" fxFlex="50%">
+                <span class="receive-remittance-icon"></span>
+                <span class="receive-remittance-text">RECEIVE Remittance</span>
+              </div>
+            </div>
+            <div class="table-container">
+              <div class="table-header" fxLayout="row" >
+                  <span class="th" fxFlex="50%">Currency</span>
+                  <span class="th" fxFlex="50%">Balance</span>
+              </div>
+              <div class="table-body" fxLayout="column">
+                <span class="td" fxLayout="row" >
+                  <div class="currence-container" fxLayout="row" fxFlex="50%">
+                    <span class="usd-icon"></span>
+                    <span class="text">USD</span>
+                  </div>
+                  <div class="currence-container" fxFlex="50%">
+                    <span class="text">4,500</span>
+                  </div>
+                </span>
+                <span class="td" fxLayout="row">
+                  <div class="currence-container" fxLayout="row" fxFlex="50%">
+                    <span class="lbn-icon"></span>
+                    <span class="text">Lebanon</span>
+                  </div>
+                  <div class="currence-container" fxFlex="50%">
+                    <span class="text">4,500</span>
+                  </div>
+                </span>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="card send-receive-card" fxLayout="column" fxFlex="50%" fxLayoutGap="27px">
+          <div class="row" fxLayout="row" fxLayoutGap="27px" fxFlex="100%">
+            <div class="card" fxFlex="108px">
+              <span class="today-send-icon"></span>
+            </div>
+            <div class="card" fxFlex="auto" >
+              <span class="title-text">Today Send </span>
+            </div>
+            <div class="card" fxFlex="108px">
+              <span class="text">99,999</span>
+            </div>
+          </div>
+          <div class="row" fxLayout="row" fxLayoutGap="27px" fxFlex="100%">
+            <div class="card background-green" fxFlex="108px">
+              <span class="today-receive-icon"></span>
+            </div>
+            <div class="card background-green" fxFlex="auto" >
+              <span class="title-text">Today Receive </span>
+            </div>
+            <div class="card background-green" fxFlex="108px">
+              <span class="text">0</span>
+            </div>
+          </div>
+          <div class="row" fxLayout="row" fxLayoutGap="27px" fxFlex="100%">
+            <div class="card" fxFlex="108px">
+              <span class="pending-refund-order-icon"></span>
+            </div>
+            <div class="card" fxFlex="auto" >
+              <span class="title-text">Pending Refund Orders </span>
+            </div>
+            <div class="card" fxFlex="108px">
+              <span class="text">0</span>
+            </div>
+          </div>
+          <div class="row" fxLayout="row" fxLayoutGap="27px" fxFlex="100%">
+            <div class="card background-green" fxFlex="108px">
+              <span class="pending-modification-icon"></span>
+            </div>
+            <div class="card background-green" fxFlex="auto" >
+              <span class="title-text">Pending Modification </span>
+            </div>
+            <div class="card background-green" fxFlex="108px">
+              <span class="text">0</span>
+            </div>
+          </div>
+          
+        </div>
+          <!-- <span class="welcome-box-img"></span>
+          <span class="table-of-transaction"></span> -->
+      </div>
+      <div class="carousel-container" fxLayout="row wrap">
+        <div class="carousel-arrow-container" fxLayout="row wrap">
+          <div class="carousel-slide" *ngFor="let image of images; let i = index" [style.transform]="'translateX(' + (-currentIndex * 100) + '%)'">
+            <div class="product-card-container">
+              <img [src]="image" alt="Carousel Image">
+              <div class="footer-card">
+                <span class="green-hint">
+                  <span class="brand-name">Brand: Apple</span>
+                  <span class="brand-price">Price: 20,000$</span>
+                </span>
+                <span class="product-name">Airpods Pro 2nd Generation copy A</span>
+              </div>
+            </div>
+          </div>
+          <button mat-icon-button class="prev" (click)="prev()">&#10094;</button>
+          <button mat-icon-button class="next" (click)="next()">&#10095;</button>
+        </div>
+      </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
